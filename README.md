@@ -15,7 +15,7 @@ StockSage is an AI platform designed to analyze stock that can assists users in 
 
 
 ## 📦 Tech Stack
-- **Programming Language**: Python
+- **Programming Language**: Python 3.10
 
 - **Framework**: CrewAI, Streamlit
 
@@ -38,22 +38,22 @@ StockSage is an AI platform designed to analyze stock that can assists users in 
 
 ## 🔧 Installation
 
-1. Clone the Repository.
+1. Clone the Repository and ensure to create a virtual environment.
 
 2. Open Command Prompt and Docker.
 
 3. Direct to the folder.
 
-4. Build the Docker Image in Command Prompt.
+4. Install the dependencies.
 
 ```
-docker build -t stock-app .
+pip install -r requirements.txt
 ```
 
-5. Run docker Image using Command Prompt.
+5. Run the app.
 
 ```
-docker run -p 8501:8501 stock-app
+streamlit run app.py
 ```
 
 6. The app will run on  http://localhost:8501
