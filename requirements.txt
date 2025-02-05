@@ -5,7 +5,7 @@ pandas==2.2.2
 numpy==1.26.4
 langchain_groq==0.1.9
 crewai-tools
-python-dotnev
+python-dotenv
 textblob
 seaborn
 matplotlib
